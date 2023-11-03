@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #2e475d;
+}
+
+p,h1,h2,h3,h4,h5,ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    padding: 10px;
+   background: linear-gradient(to right,#3A866C 0%,#4BC098 100%);
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+}
+.errormsg{
+    color: red;
+}
+.submit{
+    display: block;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+/* erro class styling */
+.error { 
+    color: #ff0000;
+    font-weight: normal;
+   }
+   .form-validate input{
+     margin-top: 10px;
+   }
+   button{
+     display: block;
+     margin-top: 10px;
+   }
+
+/* ########## LANDING ######### */
+
+.landing {
+    background-image: url('../Images/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.landing p{
+    color: #fff;
+}
+.landing h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px #303030;
+    color: #fff !important;
+}
+
+.landing h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #fff !important;
+}
+
+.landing h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+/* ############ REGISTRATION ############# */
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.registration h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.registration h4 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.registration .heading {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.registration form {
+    background-color: #f4f6fa;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.registration ul {
+    list-style: decimal;
+    margin-left: 30px;
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+form label, form p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.registration form input,
+select,
+textarea {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #2e475d;
+    border-radius: 8px;
+}
+
+.registration form input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    filter: drop-shadow(.5px .2px 1px black);
+}
+
+.registration form input[type='checkbox'] {
+    width: fit-content;
+    background-color: red;
+}
+
+.phone select {
+    width: 40%;
+}
+
+.personal-1,.personal-2{
+    margin-right: 10px;
+    width: 50%;
+}
+.manadatory{
+    color:red;
+}
+
+/* ###################### */
+.rapid{
+    background-image: url('../Images/bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.rapid .heading{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+
+}
+.rapid .heading h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -180px;
+
+}
+.services .item{
+    background-color: #fff;
+    width: 250px;
+    flex-grow: 1;
+    flex-basis: 250px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.096);
+}
+
+.services .item p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.contact{
+    text-align: center;
+}
+.why {
+    background-image: url('../Images/bg3.webp');
+    text-align: center;
+    padding: 80px 200px;
+}
+.why h1:first-child{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px
+}
+.why h1:nth-child(2){
+    color: #ff6835;
+    font-weight: 700;
+    font-size: 30px
+}
+.why .why-showcase {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px 40px;
+    text-align: center;
+    width: 250px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 10px;
+}
+.why .d-flex{
+   
+    flex-wrap: wrap;
+
+}
+.trustedby img{
+    /* width: 10px; */
+}
+.owl-carousel{
+    margin: 50px auto !important;
+    width: 70%;
+    position: relative;
+}
+
+.owl-theme .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+}
+.owl-theme .owl-nav .owl-prev{
+    margin-left: -50px;
+    border-radius: 50px;
+    background-color: #ff6835 !important;
+}
+.owl-theme .owl-nav .owl-next{
+    margin-right: -50px;
+    border-radius: 50px;
+    background-color: #ff6835 !important;
+}
+.owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span, .owl-carousel button.owl-dot{
+    display: inline-block;
+    padding: 0;
+    padding: 5px;
+    background-color: transparent;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+.owl-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+
+.awards{
+    background-image: url('../Images/bg4.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.awards h1{
+    color: #fff;
+}
+.award{
+    margin-top: -150px;
+}
+.award img{
+    width: 100%;
+    image-rendering:optimizeQuality;
+}
+.award.d-flex{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.client {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 300px;
+    width: 300px;
+    flex-grow: 1;
+}
+.client .name small:last-child{
+    color: #53b995;
+}
+.client .name small{
+    display: block;
+    line-height: -10px;
+    font-weight: 700;
+}
+.clients .d-flex:first-child{
+    flex-wrap: wrap;
+}
+.client .d-flex{
+    margin-top: 15px;
+    text-align: left;
+    justify-content: center;
+}
+.client .fa-user{
+    background-color: #303030;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.fa-quote-left{
+    font-size: 30px;
+}
+.client-2{
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.137);
+}
+
+footer{
+    background-color: #303030;
+    padding: 50px;
+}
+footer *{
+    color: #fff;
+    text-decoration: none;
+}
+footer .d-flex{
+    flex-wrap: wrap;
+}
+@media screen and (max-width:700px) {
+    .landing {
+        padding: 50px 25px; 
+    }
+    .registration {
+        padding: 0 25px;
+        flex-direction: column;
+    }
+    .registration .heading {
+        width: 100%;
+        margin-right: 00px;
+        margin-bottom: 20px;
+    }
+    
+    .registration form {
+        width: 100%;
+    }
+    .why {
+        text-align: center;
+        padding: 20px;
+    }
+    .services .item img{
+        display: inline;
+        width: 50px;
+        text-align: left;
+   
+    }
+    .services .item h1{
+        display: inline;
+
+    }
+}
